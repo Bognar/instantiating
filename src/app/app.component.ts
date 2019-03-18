@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ljudi } from '../app/test.model';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'perica';
+ name2:string;
+ lastname2:string;
+
 }
+let k = new ljudi("josip","bognar");
